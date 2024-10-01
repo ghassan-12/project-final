@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+b{
+    color: #b17300;
+}
+
+header{
+    background-color: orange;
+}
+
+
+.continer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.contact{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    height: 50px;
+}
+
+.contact h4{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .left{
+    display: flex;
+    gap: 70px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+}
+
+nav h2{
+    color: orange;
+}
+
+nav .links a{
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+nav .links a:hover{
+    color: orange;
+    transition: .2s ease-in-out;
+}
+
+.cover{
+    margin-top: 80px;
+    height: 600px;
+}
+
+
+.content{
+    display: flex;
+    margin-top: 70px;
+    height: 500px;
+    font-family: sans-serif;
+}
+
+.content .right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 100%;
+}
+
+.content .right h4{
+color: orange;
+}
+
+
+
+.content .left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.boxes .box{
+    background-color: beige;
+    border-top: 5px solid orange;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 7px;
+    width: 45%;
+}
+
+.content .left button{
+    background: orange;
+    border: none;
+    color: white;
+    width: 20%;
+    padding: 14px;
+    font-weight: 800;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+.footer .cols{
+    padding: 60px;
+    display: flex;
+    gap: 45px;
+}
+
+.footer .cols .col{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.col span{
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color: orange;
+}
+
+.footer p{
+    color: #a9a9a9;
+}
+
+
+.footer ul li{
+    color: #a9a9a9;
+    list-style-type: disclosure-closed;
+    padding-top: 15px;
+}
+
+
+.col button{
+    background: orange;
+    border: none;
+    color: white;
+    width: 50%;
+    padding: 13px;
+    font-weight: 800;
+}
+
+
+
